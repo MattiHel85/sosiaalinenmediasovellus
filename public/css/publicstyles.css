@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 2rem;
+    color: white;
+    background-color: indigo;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+header .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* header #signIn {
+    justify-content: flex-end;
+} */
+
+#welcomeBanner {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+#signUpBox {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding: 2rem;
+    border: 0.5px solid transparent;
+    box-shadow: 10px 5px 5px 5px grey;
+}
+
+#signUpBox input, label {
+    margin: 5px;
+}
