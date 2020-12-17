@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SoMe App</title>
-        <link rel="stylesheet" type="text/css" href="css/publicstyles.css" />
-    </head>
-    <body>
-        <header>
-            <div class="flex-container">
-                <div>
-                    <p>sma</p>
-                </div>
-                <div id="signIn">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email"> 
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password">
-                    <button>sign in</button>
-                </div>
-            </div>
-            
-        </header>
+<%-include ("partials/header") %>
         <section id="welcomeBanner">            
             <h1>Social Media App</h1>
             <h2>Landing Page</h2>
@@ -49,5 +26,4 @@
                 <p>Read our <a href="#">terms & conditions</a></p>
             </div>
         </section>
-    </body>
-</html>
+<%-include ("partials/footer") %>

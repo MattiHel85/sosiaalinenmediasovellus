@@ -41,3 +41,13 @@ header .flex-container {
 #signUpBox input, label {
     margin: 5px;
 }
+
+footer {
+    position: fixed;
+    height: 50px;
+    background-color: violet;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
