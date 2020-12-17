@@ -3,7 +3,10 @@
 const express = require('express')
 const app = express();
 const port = 8000;
+const User 	= require("./models/user")
 // let path = require('path');
+
+mongoose.connect("mongodb://localhost/someapp-1.1", {useNewUrlParser: true, useUnifiedTopology: true});
 
 app.use(express.static('public'));
 app.use('/css', express.static(__dirname + "/public/css"));
